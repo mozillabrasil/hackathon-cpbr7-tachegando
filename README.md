@@ -7,3 +7,5 @@ Para testar o aplicativo, utilize os códigos de rastreamento dos Correios mostr
 
 
 SW631898240BR | RB661357923CN
+
+Localização do manifest: http://www.jlamim.com.br/firefoxosapps/tachegando/manifest.webapp
