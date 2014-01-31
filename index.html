@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ta Chegando</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="cache-control" content="no-cache">
+        <link rel="stylesheet" href="assets/css/styles.css?v=0.3"/> 
+        
+    </head>
+    <body>        
+        <div id="uiContainer"></div>
+        <section id="listTracking">
+            <header>
+                <h1>Encomendas</h1>
+                <a href="#" class="closeList">X</a>
+            </header>
+            <article>
+                <div class="listContent">
+                    <ul>
+
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section id="newTracking">
+            <header>
+                <h1>Nova Encomenda</h1>
+            </header>
+            <article>                
+                <form method="post" id="frmTrack">
+                    <fieldset>
+                        <input type="text" name="trackCode" id="fieldTrackCode" placeholder="Código de Rastreamento"/>
+                        <textarea name="description" id="fieldDescription" placeholder="Descrição"></textarea>
+                        <a href="javascript:void(0);" id="btnSave">Salvar</a>
+                        <a href="javascript:void(0);" id="btnCancel">Cancelar</a>                                                
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+        <section id="tracking">
+            <article id="mapBox"></article>
+            <div id="statusBox">                
+                <p class="status">
+                    
+                </p>
+                <p class="time"><span>24/01/2014</span>12:30:45</p>                
+            </div>
+            <div class="actionBox">
+                <a href="javascript:void(0);" id="addTrack">Novo</a>
+                <a href="javascript:void(0);" id="ShowAllTracks">Lista</a>
+            </div>
+        </section>        
+        <!-- By default we add ?with=all to load every package available, it's better to change this parameter to your use case. Options ?with=maps|positioning|places|placesdata|directions|datarendering|all -->
+        <script type="text/javascript" charset="UTF-8" src="http://js.cit.api.here.com/se/2.5.3/jsl.js?with=all"></script>
+        <!-- JavaScript for example container (NoteContainer & Logger)  -->
+        <script type="text/javascript" charset="UTF-8" src="http://developer.here.com/apiexplorer/examples/templates/js/exampleHelpers.js"></script>
+
+        <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+        
+        <script type="text/javascript"
+                src="assets/js/app.js">
+        </script>
+
+
+    </body>
+</html>

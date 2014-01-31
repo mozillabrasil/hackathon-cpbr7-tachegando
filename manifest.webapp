@@ -1,0 +1,30 @@
+{
+  "name": "Tá Chegando",
+  "description": "O Tá Chegando é um aplicativo para rastreamento de encomendas distribuídas pelos Correios. De uma maneira diferenciada, ele vai exibir no mapa os pontos onde sua encomenda passou, e exibir o status da última atualização.",
+  "launch_path": "firefoxosapps/tachegando/index.html",
+  "icons": {
+    "60": "firefoxosapps/tachegando/assets/images/Icon_60.png",
+    "90": "firefoxosapps/tachegando/assets/images/Icon_90.png",
+    "120": "firefoxosapps/tachegando/assets/images/Icon_120.png",
+    "128": "firefoxosapps/tachegando/assets/images/Icon_128.png"
+  },
+  "orientation": ["portrait"],
+  "type": "privileged",
+  "default_locale": "pt-BR",
+  "version": "1.0",
+  "developer": {
+    "name": "Jonathan Lamim",
+    "url": "http://www.jlamim.com.br"
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "Required for set location in map"
+    },
+    "systemXHR": {
+      "description": "Required to get JSON"
+    },
+    "storage":{
+      "description":  "Required to save data"
+    }
+  }
+}
