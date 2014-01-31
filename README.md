@@ -6,5 +6,4 @@ O Tá Chegando é um aplicativo para rastreamento de encomendas distribuídas pe
 Para testar o aplicativo, utilize os códigos de rastreamento dos Correios mostrados abaixo ou qualquer outro código válido.
 
 
-SW631898240BR
-RB661357923CN
+SW631898240BR | RB661357923CN
